@@ -1,0 +1,19 @@
+{
+    "name": "maytrok/ipupdater",
+    "description": "Update ip for selfhost.eu",
+    "autoload": {
+        "psr-4": {
+            "Maytrok\\Ipupdater\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Maytrok",
+            "email": "maytrok@gmx.de"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.0",
+        "vlucas/phpdotenv": "^5.5"
+    }
+}
