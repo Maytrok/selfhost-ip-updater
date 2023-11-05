@@ -2,12 +2,12 @@
 
 namespace src;
 
-include "../vendor/autoload.php";
+require __DIR__ . '/../vendor/autoload.php';
 
 use Dotenv\Dotenv;
 use GuzzleHttp\Client;
 
-$dotenv = Dotenv::createImmutable(__DIR__ . "\\..\\");
+$dotenv = Dotenv::createImmutable(__DIR__ . "/../");
 $dotenv->load();
 
 $url = "https://carol.selfhost.de/update?username=%s&password=%s";
